@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZHWTipText"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "底部带有三角箭头的提示"
 
   s.description  = <<-DESC
