@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B837BB9EAB1E34311DC79B9 /* libPods-ZHWTipTextTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 064A84B75A18C8AEA7EA6A22 /* libPods-ZHWTipTextTests.a */; };
+		44E4964B437AE2D190680C91 /* libPods-ZHWTipTextUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDDF6C2DAACE082E28102C2 /* libPods-ZHWTipTextUITests.a */; };
+		84A201781EA4B07C00BCD322 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A201771EA4B07C00BCD322 /* main.m */; };
+		84A2017B1EA4B07C00BCD322 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2017A1EA4B07C00BCD322 /* AppDelegate.m */; };
+		84A2017E1EA4B07C00BCD322 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2017D1EA4B07C00BCD322 /* ViewController.m */; };
+		84A201811EA4B07C00BCD322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A2017F1EA4B07C00BCD322 /* Main.storyboard */; };
+		84A201831EA4B07C00BCD322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A201821EA4B07C00BCD322 /* Assets.xcassets */; };
+		84A201861EA4B07C00BCD322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A201841EA4B07C00BCD322 /* LaunchScreen.storyboard */; };
+		84A201911EA4B07C00BCD322 /* ZHWTipTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A201901EA4B07C00BCD322 /* ZHWTipTextTests.m */; };
+		84A2019C1EA4B07C00BCD322 /* ZHWTipTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2019B1EA4B07C00BCD322 /* ZHWTipTextUITests.m */; };
+		84A201B31EA4B16700BCD322 /* ZHWTipText.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A201AB1EA4B16700BCD322 /* ZHWTipText.m */; };
+		84A201B41EA4B16700BCD322 /* tipText_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A201AD1EA4B16700BCD322 /* tipText_arrow.png */; };
+		84A201B51EA4B16700BCD322 /* tipText_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A201AE1EA4B16700BCD322 /* tipText_arrow@2x.png */; };
+		84A201B61EA4B16700BCD322 /* tipText_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A201AF1EA4B16700BCD322 /* tipText_arrow@3x.png */; };
+		84A201B71EA4B16700BCD322 /* tipText_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A201B01EA4B16700BCD322 /* tipText_bg.png */; };
+		84A201B81EA4B16700BCD322 /* tipText_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A201B11EA4B16700BCD322 /* tipText_bg@2x.png */; };
+		84A201B91EA4B16700BCD322 /* tipText_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A201B21EA4B16700BCD322 /* tipText_bg@3x.png */; };
+		BEE7FB02CCCEEED7D4A519EA /* libPods-ZHWTipText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C7BE91BD39CACE329F0EFC /* libPods-ZHWTipText.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A2018D1EA4B07C00BCD322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A2016B1EA4B07C00BCD322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A201721EA4B07C00BCD322;
+			remoteInfo = ZHWTipText;
+		};
+		84A201981EA4B07C00BCD322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A2016B1EA4B07C00BCD322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A201721EA4B07C00BCD322;
+			remoteInfo = ZHWTipText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064A84B75A18C8AEA7EA6A22 /* libPods-ZHWTipTextTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHWTipTextTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDDF6C2DAACE082E28102C2 /* libPods-ZHWTipTextUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHWTipTextUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7261E57BF46CD9E27A41BEEA /* Pods-ZHWTipTextUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHWTipTextUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHWTipTextUITests/Pods-ZHWTipTextUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84A201731EA4B07C00BCD322 /* ZHWTipText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHWTipText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A201771EA4B07C00BCD322 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A201791EA4B07C00BCD322 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A2017A1EA4B07C00BCD322 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A2017C1EA4B07C00BCD322 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84A2017D1EA4B07C00BCD322 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84A201801EA4B07C00BCD322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A201821EA4B07C00BCD322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A201851EA4B07C00BCD322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A201871EA4B07C00BCD322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A2018C1EA4B07C00BCD322 /* ZHWTipTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHWTipTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A201901EA4B07C00BCD322 /* ZHWTipTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHWTipTextTests.m; sourceTree = "<group>"; };
+		84A201921EA4B07C00BCD322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A201971EA4B07C00BCD322 /* ZHWTipTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHWTipTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A2019B1EA4B07C00BCD322 /* ZHWTipTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHWTipTextUITests.m; sourceTree = "<group>"; };
+		84A2019D1EA4B07C00BCD322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A201AA1EA4B16700BCD322 /* ZHWTipText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHWTipText.h; sourceTree = "<group>"; };
+		84A201AB1EA4B16700BCD322 /* ZHWTipText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHWTipText.m; sourceTree = "<group>"; };
+		84A201AD1EA4B16700BCD322 /* tipText_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipText_arrow.png; sourceTree = "<group>"; };
+		84A201AE1EA4B16700BCD322 /* tipText_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tipText_arrow@2x.png"; sourceTree = "<group>"; };
+		84A201AF1EA4B16700BCD322 /* tipText_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tipText_arrow@3x.png"; sourceTree = "<group>"; };
+		84A201B01EA4B16700BCD322 /* tipText_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipText_bg.png; sourceTree = "<group>"; };
+		84A201B11EA4B16700BCD322 /* tipText_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tipText_bg@2x.png"; sourceTree = "<group>"; };
+		84A201B21EA4B16700BCD322 /* tipText_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tipText_bg@3x.png"; sourceTree = "<group>"; };
+		AC556862AD52B0D6CDB026FF /* Pods-ZHWTipTextUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHWTipTextUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHWTipTextUITests/Pods-ZHWTipTextUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEE9694B44BC205099795EF9 /* Pods-ZHWTipTextTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHWTipTextTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHWTipTextTests/Pods-ZHWTipTextTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D448BF485BC1AD0E8D17C735 /* Pods-ZHWTipText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHWTipText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHWTipText/Pods-ZHWTipText.debug.xcconfig"; sourceTree = "<group>"; };
+		D4D9B0EDF0C18CD9502B39DB /* Pods-ZHWTipTextTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHWTipTextTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHWTipTextTests/Pods-ZHWTipTextTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBC1BE4068CAFD286E9120B3 /* Pods-ZHWTipText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHWTipText.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHWTipText/Pods-ZHWTipText.release.xcconfig"; sourceTree = "<group>"; };
+		F8C7BE91BD39CACE329F0EFC /* libPods-ZHWTipText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHWTipText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A201701EA4B07C00BCD322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE7FB02CCCEEED7D4A519EA /* libPods-ZHWTipText.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A201891EA4B07C00BCD322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B837BB9EAB1E34311DC79B9 /* libPods-ZHWTipTextTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A201941EA4B07C00BCD322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E4964B437AE2D190680C91 /* libPods-ZHWTipTextUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56EF203BA69D8221AE3CAB75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D448BF485BC1AD0E8D17C735 /* Pods-ZHWTipText.debug.xcconfig */,
+				DBC1BE4068CAFD286E9120B3 /* Pods-ZHWTipText.release.xcconfig */,
+				BEE9694B44BC205099795EF9 /* Pods-ZHWTipTextTests.debug.xcconfig */,
+				D4D9B0EDF0C18CD9502B39DB /* Pods-ZHWTipTextTests.release.xcconfig */,
+				AC556862AD52B0D6CDB026FF /* Pods-ZHWTipTextUITests.debug.xcconfig */,
+				7261E57BF46CD9E27A41BEEA /* Pods-ZHWTipTextUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84A2016A1EA4B07C00BCD322 = {
+			isa = PBXGroup;
+			children = (
+				84A201A91EA4B16700BCD322 /* TipText */,
+				84A201751EA4B07C00BCD322 /* ZHWTipText */,
+				84A2018F1EA4B07C00BCD322 /* ZHWTipTextTests */,
+				84A2019A1EA4B07C00BCD322 /* ZHWTipTextUITests */,
+				84A201741EA4B07C00BCD322 /* Products */,
+				56EF203BA69D8221AE3CAB75 /* Pods */,
+				DC56993CECCF122446338CC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A201741EA4B07C00BCD322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A201731EA4B07C00BCD322 /* ZHWTipText.app */,
+				84A2018C1EA4B07C00BCD322 /* ZHWTipTextTests.xctest */,
+				84A201971EA4B07C00BCD322 /* ZHWTipTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A201751EA4B07C00BCD322 /* ZHWTipText */ = {
+			isa = PBXGroup;
+			children = (
+				84A201791EA4B07C00BCD322 /* AppDelegate.h */,
+				84A2017A1EA4B07C00BCD322 /* AppDelegate.m */,
+				84A2017C1EA4B07C00BCD322 /* ViewController.h */,
+				84A2017D1EA4B07C00BCD322 /* ViewController.m */,
+				84A2017F1EA4B07C00BCD322 /* Main.storyboard */,
+				84A201821EA4B07C00BCD322 /* Assets.xcassets */,
+				84A201841EA4B07C00BCD322 /* LaunchScreen.storyboard */,
+				84A201871EA4B07C00BCD322 /* Info.plist */,
+				84A201761EA4B07C00BCD322 /* Supporting Files */,
+			);
+			path = ZHWTipText;
+			sourceTree = "<group>";
+		};
+		84A201761EA4B07C00BCD322 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A201771EA4B07C00BCD322 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A2018F1EA4B07C00BCD322 /* ZHWTipTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A201901EA4B07C00BCD322 /* ZHWTipTextTests.m */,
+				84A201921EA4B07C00BCD322 /* Info.plist */,
+			);
+			path = ZHWTipTextTests;
+			sourceTree = "<group>";
+		};
+		84A2019A1EA4B07C00BCD322 /* ZHWTipTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84A2019B1EA4B07C00BCD322 /* ZHWTipTextUITests.m */,
+				84A2019D1EA4B07C00BCD322 /* Info.plist */,
+			);
+			path = ZHWTipTextUITests;
+			sourceTree = "<group>";
+		};
+		84A201A91EA4B16700BCD322 /* TipText */ = {
+			isa = PBXGroup;
+			children = (
+				84A201AA1EA4B16700BCD322 /* ZHWTipText.h */,
+				84A201AB1EA4B16700BCD322 /* ZHWTipText.m */,
+				84A201AC1EA4B16700BCD322 /* tipImgs */,
+			);
+			path = TipText;
+			sourceTree = "<group>";
+		};
+		84A201AC1EA4B16700BCD322 /* tipImgs */ = {
+			isa = PBXGroup;
+			children = (
+				84A201AD1EA4B16700BCD322 /* tipText_arrow.png */,
+				84A201AE1EA4B16700BCD322 /* tipText_arrow@2x.png */,
+				84A201AF1EA4B16700BCD322 /* tipText_arrow@3x.png */,
+				84A201B01EA4B16700BCD322 /* tipText_bg.png */,
+				84A201B11EA4B16700BCD322 /* tipText_bg@2x.png */,
+				84A201B21EA4B16700BCD322 /* tipText_bg@3x.png */,
+			);
+			path = tipImgs;
+			sourceTree = "<group>";
+		};
+		DC56993CECCF122446338CC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C7BE91BD39CACE329F0EFC /* libPods-ZHWTipText.a */,
+				064A84B75A18C8AEA7EA6A22 /* libPods-ZHWTipTextTests.a */,
+				4EDDF6C2DAACE082E28102C2 /* libPods-ZHWTipTextUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A201721EA4B07C00BCD322 /* ZHWTipText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A201A01EA4B07C00BCD322 /* Build configuration list for PBXNativeTarget "ZHWTipText" */;
+			buildPhases = (
+				B66877BE7C4CCC7E576195FD /* [CP] Check Pods Manifest.lock */,
+				84A2016F1EA4B07C00BCD322 /* Sources */,
+				84A201701EA4B07C00BCD322 /* Frameworks */,
+				84A201711EA4B07C00BCD322 /* Resources */,
+				C6FE9F365DE92273999CC6E6 /* [CP] Embed Pods Frameworks */,
+				6226438ACB5FA25EBC872FD5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHWTipText;
+			productName = ZHWTipText;
+			productReference = 84A201731EA4B07C00BCD322 /* ZHWTipText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A2018B1EA4B07C00BCD322 /* ZHWTipTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A201A31EA4B07C00BCD322 /* Build configuration list for PBXNativeTarget "ZHWTipTextTests" */;
+			buildPhases = (
+				ED18B24BF284EE70E405C9EE /* [CP] Check Pods Manifest.lock */,
+				84A201881EA4B07C00BCD322 /* Sources */,
+				84A201891EA4B07C00BCD322 /* Frameworks */,
+				84A2018A1EA4B07C00BCD322 /* Resources */,
+				EA70121D93EFE2BCFA624135 /* [CP] Embed Pods Frameworks */,
+				674D044381F42A8C1E41FE80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A2018E1EA4B07C00BCD322 /* PBXTargetDependency */,
+			);
+			name = ZHWTipTextTests;
+			productName = ZHWTipTextTests;
+			productReference = 84A2018C1EA4B07C00BCD322 /* ZHWTipTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84A201961EA4B07C00BCD322 /* ZHWTipTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A201A61EA4B07C00BCD322 /* Build configuration list for PBXNativeTarget "ZHWTipTextUITests" */;
+			buildPhases = (
+				75E37CC7A67DEE364EBF8984 /* [CP] Check Pods Manifest.lock */,
+				84A201931EA4B07C00BCD322 /* Sources */,
+				84A201941EA4B07C00BCD322 /* Frameworks */,
+				84A201951EA4B07C00BCD322 /* Resources */,
+				1FD21AC4C80E409D54361D40 /* [CP] Embed Pods Frameworks */,
+				FB7ACB3365E53BF2C1B77E41 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A201991EA4B07C00BCD322 /* PBXTargetDependency */,
+			);
+			name = ZHWTipTextUITests;
+			productName = ZHWTipTextUITests;
+			productReference = 84A201971EA4B07C00BCD322 /* ZHWTipTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A2016B1EA4B07C00BCD322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhanghongwei;
+				TargetAttributes = {
+					84A201721EA4B07C00BCD322 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					84A2018B1EA4B07C00BCD322 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84A201721EA4B07C00BCD322;
+					};
+					84A201961EA4B07C00BCD322 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84A201721EA4B07C00BCD322;
+					};
+				};
+			};
+			buildConfigurationList = 84A2016E1EA4B07C00BCD322 /* Build configuration list for PBXProject "ZHWTipText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A2016A1EA4B07C00BCD322;
+			productRefGroup = 84A201741EA4B07C00BCD322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A201721EA4B07C00BCD322 /* ZHWTipText */,
+				84A2018B1EA4B07C00BCD322 /* ZHWTipTextTests */,
+				84A201961EA4B07C00BCD322 /* ZHWTipTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A201711EA4B07C00BCD322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A201B81EA4B16700BCD322 /* tipText_bg@2x.png in Resources */,
+				84A201B41EA4B16700BCD322 /* tipText_arrow.png in Resources */,
+				84A201B51EA4B16700BCD322 /* tipText_arrow@2x.png in Resources */,
+				84A201B71EA4B16700BCD322 /* tipText_bg.png in Resources */,
+				84A201B61EA4B16700BCD322 /* tipText_arrow@3x.png in Resources */,
+				84A201861EA4B07C00BCD322 /* LaunchScreen.storyboard in Resources */,
+				84A201B91EA4B16700BCD322 /* tipText_bg@3x.png in Resources */,
+				84A201831EA4B07C00BCD322 /* Assets.xcassets in Resources */,
+				84A201811EA4B07C00BCD322 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A2018A1EA4B07C00BCD322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A201951EA4B07C00BCD322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD21AC4C80E409D54361D40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHWTipTextUITests/Pods-ZHWTipTextUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6226438ACB5FA25EBC872FD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHWTipText/Pods-ZHWTipText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674D044381F42A8C1E41FE80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHWTipTextTests/Pods-ZHWTipTextTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E37CC7A67DEE364EBF8984 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B66877BE7C4CCC7E576195FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6FE9F365DE92273999CC6E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHWTipText/Pods-ZHWTipText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA70121D93EFE2BCFA624135 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHWTipTextTests/Pods-ZHWTipTextTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED18B24BF284EE70E405C9EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7ACB3365E53BF2C1B77E41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHWTipTextUITests/Pods-ZHWTipTextUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A2016F1EA4B07C00BCD322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A2017E1EA4B07C00BCD322 /* ViewController.m in Sources */,
+				84A2017B1EA4B07C00BCD322 /* AppDelegate.m in Sources */,
+				84A201B31EA4B16700BCD322 /* ZHWTipText.m in Sources */,
+				84A201781EA4B07C00BCD322 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A201881EA4B07C00BCD322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A201911EA4B07C00BCD322 /* ZHWTipTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A201931EA4B07C00BCD322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A2019C1EA4B07C00BCD322 /* ZHWTipTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A2018E1EA4B07C00BCD322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A201721EA4B07C00BCD322 /* ZHWTipText */;
+			targetProxy = 84A2018D1EA4B07C00BCD322 /* PBXContainerItemProxy */;
+		};
+		84A201991EA4B07C00BCD322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A201721EA4B07C00BCD322 /* ZHWTipText */;
+			targetProxy = 84A201981EA4B07C00BCD322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A2017F1EA4B07C00BCD322 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A201801EA4B07C00BCD322 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A201841EA4B07C00BCD322 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A201851EA4B07C00BCD322 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A2019E1EA4B07C00BCD322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84A2019F1EA4B07C00BCD322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A201A11EA4B07C00BCD322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D448BF485BC1AD0E8D17C735 /* Pods-ZHWTipText.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHWTipText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWTipText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84A201A21EA4B07C00BCD322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC1BE4068CAFD286E9120B3 /* Pods-ZHWTipText.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHWTipText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWTipText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84A201A41EA4B07C00BCD322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE9694B44BC205099795EF9 /* Pods-ZHWTipTextTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHWTipTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWTipTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHWTipText.app/ZHWTipText";
+			};
+			name = Debug;
+		};
+		84A201A51EA4B07C00BCD322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D9B0EDF0C18CD9502B39DB /* Pods-ZHWTipTextTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHWTipTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWTipTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHWTipText.app/ZHWTipText";
+			};
+			name = Release;
+		};
+		84A201A71EA4B07C00BCD322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC556862AD52B0D6CDB026FF /* Pods-ZHWTipTextUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZHWTipTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWTipTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHWTipText;
+			};
+			name = Debug;
+		};
+		84A201A81EA4B07C00BCD322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7261E57BF46CD9E27A41BEEA /* Pods-ZHWTipTextUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZHWTipTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWTipTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHWTipText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A2016E1EA4B07C00BCD322 /* Build configuration list for PBXProject "ZHWTipText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A2019E1EA4B07C00BCD322 /* Debug */,
+				84A2019F1EA4B07C00BCD322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A201A01EA4B07C00BCD322 /* Build configuration list for PBXNativeTarget "ZHWTipText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A201A11EA4B07C00BCD322 /* Debug */,
+				84A201A21EA4B07C00BCD322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A201A31EA4B07C00BCD322 /* Build configuration list for PBXNativeTarget "ZHWTipTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A201A41EA4B07C00BCD322 /* Debug */,
+				84A201A51EA4B07C00BCD322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A201A61EA4B07C00BCD322 /* Build configuration list for PBXNativeTarget "ZHWTipTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A201A71EA4B07C00BCD322 /* Debug */,
+				84A201A81EA4B07C00BCD322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A2016B1EA4B07C00BCD322 /* Project object */;
+}
