@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 底部带有三角箭头的提示,底部带有三角箭头的提示
                    DESC
 
-  s.homepage     = "http://jesse881025/ZHWTipText"
+  s.homepage     = "https://jesse881025/ZHWTipText"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
 
-  s.source       = { :git => "http://jesse881025/ZHWTipText.git", :tag => s.version}
+  s.source       = { :git => "https://jesse881025/ZHWTipText.git", :tag => s.version}
   s.source_files  = "TipText", "ZHWTipText/TipText/**/*}"
   #s.source_files  = "TipText", "ZHWTipText/TipText/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
