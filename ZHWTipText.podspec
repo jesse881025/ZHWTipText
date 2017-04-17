@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.resources  = "TipText", "ZHWTipText/TipText/tipImgs/*.png"
+  s.resources  = "ZHWTipText/TipText/tipImgs/*.png"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
