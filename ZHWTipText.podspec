@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
 
 
   s.source       = { :git => "https://github.com/jesse881025/ZHWTipText.git", :tag => s.version}
-  s.source_files  = "TipText", "ZHWTipText/TipText/**/*}"
-  #s.source_files  = "TipText", "ZHWTipText/TipText/**/*.{h,m}"
+  #s.source_files  = "TipText", "ZHWTipText/TipText/**/*.{h,m,png}"
+  s.source_files  = "TipText", "ZHWTipText/TipText/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-
+  # s.resources  = "TipText", "ZHWTipText/TipText/tipImgs/*.png"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
